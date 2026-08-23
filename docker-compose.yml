@@ -15,7 +15,7 @@ services:
   dth:
     image: jagadeeshtadepalli/dth:latest
     ports:
-      - :83:80"
+      - "83:80"
     deploy:
       replicas: 3
   recharge:
